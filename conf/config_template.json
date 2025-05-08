@@ -16,17 +16,17 @@
 	},
 	"mirror": false,
 	"paths": {
-		"certificates": "data/certificates/",
+		"certificates": "__DATA_DIR__/certificates/",
 		"embeddedDbBin": "pgsql16/bin/",
-		"embeddedDbData": "data/database/",
-		"files": "data/files/",
-		"temp": "data/temp/",
-		"transfer": "data/transfer"
+		"embeddedDbData": "__DATA_DIR__/database/",
+		"files": "__DATA_DIR__/files/",
+		"temp": "__DATA_DIR__/temp/",
+		"transfer": "__DATA_DIR__/transfer"
 	},
 	"portable": false,
 	"web": {
-		"cert": "/etc/yunohost/certs/__DOMAIN__/crt.pem",
-		"key": "/etc/yunohost/certs/__DOMAIN__/key.pem",
+		"cert": "",
+		"key": "",
 		"listen": "127.0.0.1",
 		"port": __PORT__,
 		"tlsMinVersion":"1.2"
