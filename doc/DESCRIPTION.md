@@ -1,1 +1,1 @@
-This is a dummy description of this app features
+Build and host powerful applications with full control and ownership.
