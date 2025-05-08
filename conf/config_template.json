@@ -25,8 +25,8 @@
 	},
 	"portable": false,
 	"web": {
-		"cert": "cert.crt",
-		"key": "cert.key",
+		"cert": "/etc/yunohost/certs/__DOMAIN__/crt.pem",
+		"key": "/etc/yunohost/certs/__DOMAIN__/key.pem",
 		"listen": "127.0.0.1",
 		"port": __PORT__,
 		"tlsMinVersion":"1.2"
