@@ -4,8 +4,8 @@ packaging_format = 2
 
 id = "r3"
 name = "R3"
-description.en = ""
-description.fr = ""
+description.en = "Build and host powerful applications with full control and ownership"
+description.fr = "Créez et hébergez des applications puissantes avec un contrôle et une propriété totale"
 
 version = "3.10.4~ynh1"
 
