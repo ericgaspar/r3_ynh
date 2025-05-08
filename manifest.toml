@@ -58,6 +58,7 @@ ram.runtime = "50M"
     [resources.install_dir]
 
     [resources.data_dir]
+    subdirs = [ "certificates", "files", "transfer", "database", "temp" ]
 
     [resources.permissions]
     main.url = "/"
